@@ -29,3 +29,8 @@ cell_9 = ' '
 #    |   |   
 
 # TODO: 程式寫這裡
+print(" x | x | o ")
+print("---+---+---")
+print("   | o |   ")
+print("---+---+---")
+print(" x |   |   ")

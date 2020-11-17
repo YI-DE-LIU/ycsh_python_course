@@ -22,8 +22,8 @@ cell_9 = ' '
 #    | o |   
 # ---+---+---
 #  x |   |   
-print(" x | x | o ")
+print(cell_1,"|",cell_2,"|",cell_3)
 print("---+---+---")
-print("   | o |   ")
+print(cell_4,"|",cell_5,"|",cell_6)
 print("---+---+---")
-print(" x |   |   ")
+print(cell_7,"|",cell_8,"|",cell_9)

@@ -1,5 +1,0 @@
-print(" x | x | o ")
-print("---+---+---")
-print("   | o |   ")
-print("---+---+---")
-print(" x |   |   ") 

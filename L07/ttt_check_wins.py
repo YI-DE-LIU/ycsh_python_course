@@ -26,9 +26,50 @@ chess = 'x'
 
 # 使用者指定棋子位置
 # TODO: 程式寫這裡
-
+position = int(input())
 # 根據指定位置，更新對應的棋盤格狀態變數 cell_1 ~ cell_9，
 # TODO: 程式寫這裡
-
+if position == 1:
+    cell_1 = chess
+elif position == 2:
+    cell_2 = chess
+elif position == 3:
+    cell_3 = chess
+elif position == 4:
+    cell_4 = chess
+elif position == 5:
+    cell_5 = chess
+elif position == 6:
+    cell_6 = chess
+elif position == 7:
+    cell_7 = chess
+elif position == 8:
+    cell_8 = chess
+elif position == 9:
+    cell_9 = chess
 # 判斷是否勝利並顯示結果
 # TODO: 程式寫這裡
+
+if position == 1:
+    cell_1 = chess
+    print("x勝利，結束程式")
+elif position == 2:
+    cell_2 = chess
+    print("")
+elif position == 3:
+    cell_3 = chess
+elif position == 4:
+    cell_4 = chess
+elif position == 5:
+    cell_5 = chess
+elif position == 6:
+    cell_6 = chess
+elif position == 7:
+    cell_7 = chess
+elif position == 8:
+    cell_8 = chess
+    print("x勝利，結束程式")
+elif position == 9:
+    cell_9 = chess
+
+    

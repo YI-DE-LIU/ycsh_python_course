@@ -25,8 +25,33 @@ chess = 'x'
 
 # 提示使用者輸入棋子位置（整數 0-9 ），保存在變數 position，
 # TODO: 程式寫這裡
-
+position = int(input())
 
 # 檢查該棋盤格位置是否可以落子（可以放棋子在上面），
 # 如果不行，顯示 '錯誤，此位置已經有棋子了，結束程式'，並退出程式
 # TODO: 程式寫這裡
+
+is_occupied = True
+
+if position == 1 and cell_1 !=' ' :
+    is_occupied = False
+elif position == 2 and cell_2 !=' ' :
+    is_occupied = False
+elif position == 3 and cell_3 !=' ' :
+    is_occupied = False
+elif position == 4 and cell_4 !=' ' :
+    is_occupied = False
+elif position == 5 and cell_5 !=' ' :
+    is_occupied = False
+elif position == 6 and cell_6 !=' ' :
+    is_occupied = False
+elif position == 7 and cell_7 !=' ' :
+    is_occupied = False
+elif position == 8 and cell_8 !=' ' :
+    is_occupied = False
+elif position == 9 and cell_9 !=' ' :
+    is_occupied = False
+
+if is_occupied == False:
+    print('錯誤，此位置已經有棋子了，結束程式')
+    exit()
